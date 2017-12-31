@@ -12,6 +12,8 @@
 
 	
 	<context:component-scan base-package="com.deepak.onlineshopping.controller" />
+	<context:component-scan base-package="com.deepak.shoppingbackend.daoImpl" />
+	
 
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

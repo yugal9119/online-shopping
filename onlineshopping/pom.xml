@@ -14,7 +14,12 @@
 	</properties>
 
 	<dependencies>
-
+	<!-- LINK BACKEND PROJECT -->
+		<dependency>
+			<groupId>com.deepak</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<dependency>
 			<groupId>javax</groupId>
